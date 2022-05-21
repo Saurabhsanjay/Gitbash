@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASAI CALCULATOR USING COMBINATORS</title>
+    <style>
+     #container{
+         width: 400px;
+         margin: auto;
+         box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+         height: 380px ;
+         margin-top: 70px;
+         padding: 50px 0px;
+     }
+     h1{
+         color: #018080;
+         text-align: center;
+         font-size: 36px;
+         font-weight: 800;
+     }
+
+     #container>div:first-child{
+         width: 300px;
+         margin: auto;
+         height: 60px;
+         box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+         border-radius: 10px;
+     }
+
+     #subcontainer>div{
+        display: flex;
+        width: 300px;
+        margin: auto;
+        margin-top: 10px;
+     }
+
+     #subcontainer>div>div{
+        box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin: auto;
+        width: 68px;
+        height: 48px;
+        padding-top: 20px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        font-weight: 800;
+        font-family: sans-serif;
+     }
+
+     #subcontainer>div>div:last-child{
+         background-color: black;
+         color:white;
+     }
+     
+     #subcontainer>div:last-child>div:first-child{
+         background-color: red;
+         color: white;
+     }
+
+     #subcontainer>div:last-child>div:nth-child(3){
+         background-color: black;
+         color: white;
+     }
+
+    </style>
+</head>
+<body>
+    <h1>MASAI CALCULATOR</h1>
+    <div id="container">
+        <div></div>
+        <div id="subcontainer">
+            <div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>+</div>
+            </div>
+            <div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>-</div>
+            </div>
+            <div>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>x</div>
+            </div>
+            <div>
+                <div>C</div>
+                <div>0</div>
+                <div>=</div>
+                <div>/</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
